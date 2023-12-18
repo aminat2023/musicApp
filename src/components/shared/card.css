@@ -1,0 +1,87 @@
+
+
+
+.myCard{
+ width: 275px;
+ display: block;
+ margin: 0 auto;
+ margin-bottom: 3px;
+ padding: 30px;
+ border-radius: 10px;
+ box-shadow: inset -6px -6px 12px coral ,inset 6px 6px 12px lightgrey  ;
+}
+
+
+.myCard img{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.card-container p:nth-child(2){
+    font-style: italic;
+}
+
+.myCard b{
+ font-size: 18px;
+ color: white;
+
+}
+.myCard button{
+align-items: center;
+justify-content: center; 
+background-color:coral;
+margin-top: 3px;
+}
+
+.myCard .play-btn{
+    border-radius: 100%;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0,0.8) ,
+    inset -4px -4px 10px rgb(225, 255, 255,0.4), 
+    inset -4px -4px 10px rgb(0, 0, 0,0.4),
+    inset 4px 4px 10px rgb(0, 0, 0,0.4);
+    border: 0;
+    cursor: pointer;
+    
+}
+  .details-card  a{
+    color: white;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.details-card a h3{
+  opacity: 0;      
+  left: 0;
+  top: -30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color:rgb(238, 96, 44);
+  font-size: 30px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+ background-color: transparent;
+ transition: opacity 0.3s ease-in;
+
+
+
+}
+ .details-card:hover a h3{
+ opacity: 1;
+}
+.details-container{
+    background-color: aliceblue;
+  }
+
+ 
+
+
+
+
+
+
+

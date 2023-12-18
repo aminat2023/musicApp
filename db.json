@@ -1,0 +1,17 @@
+{
+    "music":[
+        {
+            "id": 1,
+          "  Artist_Name": "Falana Folarin",
+           " stage_Name": "Falz",
+            "Album": "Moral Instruction",
+           " Price": 20,
+            "quantity": 1,
+           " description":
+                "Hip hop or hip-hop, also known as rap, and formerly known as disco rap, is a genre of popular music that originated in the early 1970s by African Americans in the Bronx, a borough of New York City. It existed for several years prior to mainstream discovery.",
+           " categories": "HIP-UP MUSIC",
+            "musicUrl": ""
+        
+        }
+    ]
+}

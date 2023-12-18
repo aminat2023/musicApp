@@ -1,0 +1,37 @@
+.navbar-item{
+    background: linear-gradient(90deg); 
+    display:  flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid coral;
+    gap: 2rem;
+    padding: 0 10px;
+}
+
+.navbar-logo{
+    color: white;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    color: coral;
+
+}
+.cartName span:nth-child(1){
+    padding: 0 3px;
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    position: relative;
+    top: 15px;
+
+   
+}
+.cartName span:nth-child(2){
+ font-size: 1rem;
+}
+
+
+
+
